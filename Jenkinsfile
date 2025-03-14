@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'maven:3.8.6-openjdk-17' // Use a Maven image with JDK 17
+            image 'maven:3.8.3-openjdk-17' // Use a Maven image with JDK 17
         }
     }
     stages {
